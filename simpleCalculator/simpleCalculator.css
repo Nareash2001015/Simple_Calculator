@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body
+{
+    background-image: url("travelworthy-backdrop.jpg");
+    background-repeat: repeat-x;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+input
+{
+    border-color: white;
+    border-style: none;
+    font-size: x-large;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    width: 375px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+div.display
+{
+    background-color:aliceblue;
+    width:fit-content;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-right: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.icon
+{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+
+
+.row1, .row2, .row3, .row4, .row5
+{
+    position: relative;
+    display: inline-block;
+}  
+
+.row4, .two
+{
+    margin-right: 30px;
+}
+
+div.icon:hover
+{
+    background-color: grey;
+    cursor: pointer;
+}
+
+div.instruction
+{
+    position: absolute;
+    display: inline;
+    width: 300px;
+    top: 35px;
+    margin-left: 15rem;
+    border-style: solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
