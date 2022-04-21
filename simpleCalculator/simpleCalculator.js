@@ -77,7 +77,7 @@ function modulo(a,b) { return a % b; }
 
 function doCalculate(e)
 {
-    if(e.key == 'Enter')
+    if(e.key == 'Enter' || e.type == "click")
     {
         var expression = textPad.value;
         var infix = expression.split(' ');
